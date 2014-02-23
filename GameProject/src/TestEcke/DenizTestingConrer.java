@@ -7,9 +7,9 @@ import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
 
-public class TestingMain extends BasicGame{
+public class DenizTestingConrer extends BasicGame{
 	
-	public TestingMain(String gamename){
+	public DenizTestingConrer(String gamename){
 		super(gamename);
 	}
 	@Override
@@ -33,13 +33,13 @@ public class TestingMain extends BasicGame{
 		try
 		{
 			AppGameContainer appgc;
-			appgc = new AppGameContainer(new TestingMain("Testing Thing"));
+			appgc = new AppGameContainer(new DenizTestingConrer("Testing Thing"));
 			appgc.setDisplayMode(640, 480, false);
 			appgc.start();
 		}
 		catch (SlickException ex)
 		{
-			Logger.getLogger(TestingMain.class.getName()).log(Level.SEVERE, null, ex);
+			Logger.getLogger(DenizTestingConrer.class.getName()).log(Level.SEVERE, null, ex);
 		}
 	}
 }

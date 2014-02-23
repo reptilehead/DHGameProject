@@ -34,7 +34,7 @@ public class Game extends BasicGame
 	@Override
 	public void render(GameContainer gc, Graphics g) throws SlickException
 	{
-		g.drawString("Howdy!", 10, 10);
+		g.drawString("Howdy!", 50, 50);
 	}
 
 	public static void main(String[] args)
